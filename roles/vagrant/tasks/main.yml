@@ -1,0 +1,16 @@
+---
+- name: Vagrant
+  homebrew_cask:
+    name: vagrant
+    state: present
+
+- name: Vagrant Manager
+  homebrew_cask:
+    name: vagrant-manager
+    state: present
+
+- name: Vagrant Bar
+  homebrew_cask:
+    name: vagrant-bar
+    state: present
+

@@ -1,0 +1,6 @@
+---
+- name: Go2Shell
+  homebrew_cask:
+    name: go2shell
+    state: present
+

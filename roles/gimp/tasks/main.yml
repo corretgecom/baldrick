@@ -1,0 +1,6 @@
+---
+- name: Gimp
+  homebrew_cask:
+    name: gimp
+    state: present
+

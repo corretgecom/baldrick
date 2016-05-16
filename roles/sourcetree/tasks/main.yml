@@ -1,0 +1,6 @@
+---
+- name: SourceTree
+  homebrew_cask:
+    name: sourcetree
+    state: present
+

@@ -1,0 +1,21 @@
+---
+- hosts: localhost
+
+  roles:
+    - base
+    - twitter
+    - macvim
+    - iterm2
+    - go2shell
+    - sourcetree 
+    - mysqlworkbench
+    - xmind
+    - poedit
+    - mou
+    - cinch
+    - sqlitebrowser
+    - virtualbox
+    - vagrant
+    - docker
+    - gimp
+    - netbeans-php

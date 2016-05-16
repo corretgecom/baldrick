@@ -1,0 +1,6 @@
+---
+- name: InkScape 
+    homebrew_cask:
+    name: inkscape
+    state: present
+

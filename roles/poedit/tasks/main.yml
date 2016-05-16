@@ -1,0 +1,6 @@
+---
+- name: Poedit
+  homebrew_cask:
+    name: poedit 
+    state: present
+

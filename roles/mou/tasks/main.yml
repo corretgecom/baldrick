@@ -1,0 +1,6 @@
+---
+- name: Mou
+  homebrew_cask:
+    name: mou
+    state: present
+

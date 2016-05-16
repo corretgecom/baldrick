@@ -1,0 +1,17 @@
+---
+- name: Update homebrew
+  homebrew:
+    update_homebrew: yes
+    upgrade_all: yes
+
+- name: Install base packages
+  homebrew:
+    name: "{{item}}"
+    state: present
+  with_items:
+    - vim
+    - mc
+    - tree
+    - unrar
+    - bash-completion
+

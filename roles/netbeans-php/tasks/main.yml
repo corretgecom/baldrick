@@ -1,0 +1,6 @@
+---
+- name: NetBeans IDE for PHP
+  homebrew_cask:
+    name: netbeans-php
+    state: present
+

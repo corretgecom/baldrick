@@ -1,0 +1,6 @@
+---
+- name: MacVim
+  homebrew_cask:
+    name: macvim
+    state: present
+

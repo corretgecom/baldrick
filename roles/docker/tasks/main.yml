@@ -1,0 +1,11 @@
+---
+- name: Docker
+  homebrew_cask:
+    name: docker
+    state: present
+
+- name: Docker Compose
+  homebrew_cask:
+    name: docker-compose
+    state: present
+

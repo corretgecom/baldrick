@@ -1,0 +1,6 @@
+---
+- name: XMind 
+  homebrew_cask:
+    name: xmind 
+    state: present
+

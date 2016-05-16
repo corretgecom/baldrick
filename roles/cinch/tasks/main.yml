@@ -1,0 +1,6 @@
+---
+- name: Cinch
+  homebrew_cask:
+    name: cinch
+    state: present
+

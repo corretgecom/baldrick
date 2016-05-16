@@ -1,0 +1,6 @@
+---
+- name: SQLite Database Browser
+  homebrew_cask:
+    name: sqlitebrowser
+    state: present
+

@@ -1,0 +1,6 @@
+---
+- name: Java Standard Edition Development Kit
+  homebrew_cask:
+    name: java
+    state: present
+

@@ -1,0 +1,6 @@
+---
+- name: MySQL Workbench
+  homebrew_cask:
+    name: mysqlworkbench 
+    state: present
+
