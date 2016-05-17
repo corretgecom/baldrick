@@ -64,3 +64,21 @@ ansible-playbook MacOSX.yml --ask-become-pass
 
 Depending your connection bandwith and sudo caducity period, you will be asked again for your password.
 
+
+## Software list
+
+
+
+## Pending to do
+
+After install packages, few of them should be configured. We have a to-do list while these actions are not automatised.
+
+### Mac OSX
+- Show hidden files in finder.
+- Set function key by default.
+
+### SourceTree
+- Enable GitFlow
+
+### NetBeans
+- xdebug Configuration.
