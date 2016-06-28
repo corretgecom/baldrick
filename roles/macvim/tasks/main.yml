@@ -4,3 +4,7 @@
     name: macvim
     state: present
 
+- name: Vim developers configuration
+  template: 
+    src: vimrc.j2
+    dest: ~/.vimrc

@@ -1,0 +1,10 @@
+---
+- name: Tap PHP
+  homebrew_tap: 
+    tap: homebrew/php 
+    state: present
+
+- name: PHP 7.0
+  homebrew:
+    name: php70 
+    state: present

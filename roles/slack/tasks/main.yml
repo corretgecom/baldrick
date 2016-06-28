@@ -1,5 +1,6 @@
 ---
-- name: InkScape 
+- name: Slack 
   homebrew_cask:
-    name: inkscape 
+    name: slack 
     state: present
+

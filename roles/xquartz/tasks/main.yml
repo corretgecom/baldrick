@@ -1,5 +1,5 @@
 ---
-- name: InkScape 
+- name: XQuartz 
   homebrew_cask:
-    name: inkscape 
+    name: xquartz
     state: present

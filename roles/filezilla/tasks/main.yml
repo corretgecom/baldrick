@@ -1,5 +1,6 @@
 ---
-- name: InkScape 
+- name: Filezilla
   homebrew_cask:
-    name: inkscape 
+    name: filezilla 
     state: present
+

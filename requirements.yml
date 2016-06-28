@@ -1,0 +1,4 @@
+---
+# Ansistrano galaxy roles
+- src: carlosbuenosvinos.ansistrano-deploy
+- src: carlosbuenosvinos.ansistrano-rollback

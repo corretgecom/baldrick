@@ -1,0 +1,6 @@
+---
+- name: MySQL Server
+  homebrew:
+    name: mysql
+    state: present
+

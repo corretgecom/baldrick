@@ -1,5 +1,6 @@
 ---
-- name: InkScape 
+- name: Dash 
   homebrew_cask:
-    name: inkscape 
+    name: dash 
     state: present
+

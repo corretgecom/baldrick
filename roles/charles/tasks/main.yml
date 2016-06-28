@@ -1,0 +1,6 @@
+---
+- name: Charles proxy
+  homebrew_cask:
+    name: charles 
+    state: present
+

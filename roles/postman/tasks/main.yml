@@ -1,5 +1,6 @@
 ---
-- name: InkScape 
+- name: Postman
   homebrew_cask:
-    name: inkscape 
+    name: postman 
     state: present
+

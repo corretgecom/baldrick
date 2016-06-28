@@ -1,0 +1,6 @@
+---
+- name: SQLmap
+  homebrew:
+    name: sqlmap
+    state: present
+

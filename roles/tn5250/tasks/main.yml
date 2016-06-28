@@ -1,5 +1,6 @@
 ---
-- name: InkScape 
+- name: TN5250 
   homebrew_cask:
-    name: inkscape 
+    name: tn5250
     state: present
+

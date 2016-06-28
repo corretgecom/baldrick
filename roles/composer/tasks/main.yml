@@ -1,0 +1,10 @@
+---
+- name: Tap PHP
+  homebrew_tap: 
+    tap: homebrew/php 
+    state: present
+
+- name: Composer
+  homebrew:
+    name: composer 
+    state: present

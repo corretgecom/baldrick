@@ -1,17 +1,32 @@
 ---
+
+- name: Tap Dupes
+  homebrew_tap: 
+    tap: homebrew/dupes
+    state: present
+
 - name: Update homebrew
   homebrew:
     update_homebrew: yes
     upgrade_all: yes
 
+- name: Set bash profile 
+  template:
+    src: user_bash_profile.j2
+    dest: ~/.bash_profile 
+
 - name: Install base packages
   homebrew:
-    name: "{{item}}"
+    name: "{{ item }}"
     state: present
   with_items:
     - vim
     - mc
+    - htop 
     - tree
     - unrar
     - bash-completion
+    - dos2unix
+    - wget
+    - ncdu 
 

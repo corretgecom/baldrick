@@ -1,0 +1,14 @@
+nnoremap <F9> :!%:p
+set makeprg=php\ %
+set autowrite
+set backupdir=/tmp/
+set directory=/tmp/
+set ruler
+let @t='1s/# // | %s/, /|/g | %s/^/|/g | %s/$/|/g | 1s/|/||/g'
+let @x='%!xmllint --format -'
+let @j='%!python -m json.tool'
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set backspace=2
+

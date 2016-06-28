@@ -76,6 +76,8 @@ After install packages, few of them should be configured. We have a to-do list w
 ### Mac OSX
 - Show hidden files in finder.
 - Set function key by default.
+- System Preferences > Language & Region > Calendar (popup menu) > ISO 8601.
+- Dock turn hidding on:  defaults write com.apple.dock autohide-time-modifier -int 0 && Killall Dock
 
 ### SourceTree
 - Enable GitFlow

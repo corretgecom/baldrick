@@ -1,4 +1,11 @@
 ---
+
+- hosts: localhost
+
+  tasks:
+    - command: "ansible-galaxy install -r requeriments.yml"
+
+
 - hosts: localhost
 
   roles:
@@ -9,6 +16,7 @@
     - go2shell
     - sourcetree 
     - mysqlworkbench
+    - sqlmap
     - xmind
     - poedit
     - mou
@@ -19,3 +27,18 @@
     - docker
     - gimp
     - netbeans-php
+    - dash
+    - slack
+    - composer
+    - tn5250
+    - teamviewer
+    - postman
+    - ibooks 
+    - inkscape
+    - filezilla
+    - nginx
+    - mysql
+    - php70
+    - tunnelblick
+    - charles 
+    - letsencrypt 

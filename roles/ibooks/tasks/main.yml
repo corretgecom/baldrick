@@ -1,0 +1,3 @@
+---
+- name: iBooks Author 
+  command: softwareupdate --install ibooks-author
