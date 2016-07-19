@@ -1,0 +1,6 @@
+---
+- name: JMeter
+  homebrew:
+    name: jmeter 
+    state: present
+    install_options: with-plugins
