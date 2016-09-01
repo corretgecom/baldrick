@@ -1,0 +1,15 @@
+---
+- name: Tap blackfire-agent
+  homebrew_tap: 
+    tap: blackfireio/homebrew-blackfire 
+    state: present
+
+- name: PHP blackfire-agent
+  homebrew:
+    name: blackfire-agent 
+    state: present
+
+- name: PHP blackfire probe
+  homebrew:
+    name: blackfire-php70
+    state: present
